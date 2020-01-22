@@ -10,7 +10,7 @@ package bol16;
  *
  * @author clagosuarez
  */
-public abstract class Canario implements IPodeCantar{
+public class Canario implements IPodeCantar{
     @Override
     public void cantar(){
         System.out.println("Pio Pio");

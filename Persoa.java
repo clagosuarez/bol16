@@ -10,7 +10,7 @@ package bol16;
  *
  * @author clagosuarez
  */
-public abstract class Persoa implements IPodeCantar{
+public class Persoa implements IPodeCantar{
     @Override
     public void cantar(){
         System.out.println("Do Re Mi Fa Sol La Si");

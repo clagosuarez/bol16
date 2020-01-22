@@ -10,9 +10,6 @@ package bol16;
  *
  * @author clagosuarez
  */
-public class Galo implements IPodeCantar{
-    @Override
-    public void cantar(){
-        System.out.println("ki kiri ki");
-    }
+public class Tenor extends Persoa{
+
 }

@@ -16,12 +16,14 @@ public class Bol16 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        IPodeCantar obx = new Persoa(){};
-        IPodeCantar obx2 = new Canario(){};
-        IPodeCantar obx3 = new Galo(){};
-        obx.cantar();
-        obx2.cantar();
-        obx3.cantar();
+        IPodeCantar persoa = new Persoa(){};
+        IPodeCantar canario = new Canario(){};
+        IPodeCantar galo = new Galo(){};
+        IPodeCantar tenor = new Tenor(){};
+        persoa.cantar();
+        canario.cantar();
+        galo.cantar();
+        tenor.cantar();
     }
 
 }
